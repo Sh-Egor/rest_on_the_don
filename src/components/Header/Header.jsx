@@ -4,7 +4,7 @@ import s from './Header.module.css'
 const Header = () => {
     return (
         <header className={s.header}>
-            <div>HEAD</div>
+            <div>Отдых на дону</div>
         </header>
     );
 }
