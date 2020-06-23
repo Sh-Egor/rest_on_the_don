@@ -1,0 +1,26 @@
+[
+    {
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png",
+        "capture": "Instagram",
+        "url":"https://www.instagram.com/egorshpitko/?hl=ru",
+        "key": "1234"
+    },
+    {
+        "img":"https://s1.iconbird.com/ico/2013/11/499/w256h2561384975213MezhdunarodnylogotipVK1.png",
+        "capture":"Vkontakte",
+        "url":"https://vk.com/egorshp",
+        "key": "123"
+    },
+    {
+        "img":"http://icons.iconarchive.com/icons/dtafalonso/android-l/256/WhatsApp-icon.png",
+        "capture":"Whatsapp",
+        "url":"+7-961-549-97-67",
+        "key": "124"
+    },
+    {
+        "img":"https://hashtelegraph.com/wp-content/uploads/2018/01/Logo1.png",
+        "capture":"Telegram",
+        "url":"+7-961-549-97-67",
+        "key": "125"
+    }
+]

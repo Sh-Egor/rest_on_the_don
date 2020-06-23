@@ -1,0 +1,17 @@
+.menu{
+    grid-area: menu;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* background-color: rgb(182, 182, 6); */
+}
+
+.pages{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    margin-left: max-content;
+    margin-right: max-content;
+    align-self: center;
+}

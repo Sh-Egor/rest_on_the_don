@@ -1,0 +1,16 @@
+.foot{
+    display: grid;
+    width: 100%;
+    grid-column-gap: 5%;
+    grid-row-gap: 1%;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    
+}
+
+.footer{
+    grid-area: f;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(99, 93, 93);
+}
