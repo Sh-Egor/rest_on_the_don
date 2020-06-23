@@ -5,13 +5,13 @@
 }
 
 .img{
-    width: 40px;
-    height: 40px;
+    width: 5vmin;
+    height: 5vmin;
 }
 .a{
     border: solid;
-    border-radius: 10px;
-    border-width: 3px;
+    border-radius: 1vmin;
+    border-width: 0.3vmin;
     border-color: green;
     background-color: rgb(189, 175, 175);
     display: grid;
@@ -20,6 +20,7 @@
     grid-template-areas: 
     "img cap";
     align-self: center;
+    font-size: 3vmin;
 }
 
 .a .img{

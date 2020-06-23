@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Menu.module.css'
-import Submenu from './../SubMenu/Submenu'
+import Submenu from './SubMenu/Submenu'
 import pages from './pages.json'
 
 const Menu = () => {

@@ -1,14 +1,17 @@
 [
     {
+        "href":"/rest_on_the_don",
         "capture":"Главная", 
         "key":"234"
     },
-    {
+    {   
+        "href":"/GalleryPage",
         "capture":"Галерея",
         "key":"235"
     },
     {
-        "capture":"Бронирование",
+        "href":"/BookingPage",
+        "capture":"Бронь",
         "key":"236"
     }
 ]

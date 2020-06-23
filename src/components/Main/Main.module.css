@@ -1,5 +1,15 @@
 .main{
     grid-area: m;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    ". bg .";
+}
+
+.bg{
+    grid-area: bg;
     background-color: blue;
-    min-height: 5fr;
+    height: 100%;
+    border-radius: 10px;
 }
