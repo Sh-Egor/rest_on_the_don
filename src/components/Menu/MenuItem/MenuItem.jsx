@@ -1,15 +1,15 @@
 import React from 'react';
-import s from './Submenu.module.css'
+import s from './MenuItem.module.css'
 import { NavLink } from 'react-router-dom'
 
-const Submenu = (props) => {
+const MenuItem = (props) => {
     return (
         <NavLink to={props.href} activeClassName={s.active}>
-            <div className={s.submenu}>
+            <div className={s.menuitem}>
                 <div >{props.capture}</div>
             </div>
         </NavLink>
     );
 }
 
-export default Submenu;
+export default MenuItem;

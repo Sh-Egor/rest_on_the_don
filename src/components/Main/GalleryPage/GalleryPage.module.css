@@ -1,3 +1,19 @@
 .main{
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "smenu"
+    "photos";
+}
+
+.smenu{
+    grid-area: smenu;
+}
+
+.photos{
     background-color: red;
+    grid-area: photos;
+    height: 100%;
 }

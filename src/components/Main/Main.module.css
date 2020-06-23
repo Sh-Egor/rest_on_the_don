@@ -5,6 +5,7 @@
     grid-template-rows: auto;
     grid-template-areas: 
     ". bg .";
+    height: 100%;
 }
 
 .bg{

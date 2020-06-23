@@ -1,0 +1,22 @@
+.menu{
+    grid-area: menu;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "pages";
+    height: min-content;
+}
+
+.pages{
+    grid-area: pages;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    margin-left: max-content;
+    margin-right: max-content;
+    align-self: center;
+    height: max-content;
+}

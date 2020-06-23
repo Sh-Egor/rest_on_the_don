@@ -6,9 +6,9 @@
     border: solid;
     border-radius: 5px;
     height: auto;
-    font-size: 3vmin;
+   
 }
-.submenu{
+.menuitem{
     text-decoration: none;
     color: black;
     transition-delay: 100ms;
@@ -18,11 +18,17 @@
     border: solid;
     border-radius: 5px;
     height: auto;
-    font-size: 3vmin;
+    font-size: 2vmax;
     /* margin-left: auto;
     margin-right: auto; */
     /* width: max-content; */
 }
+
+/* @media screen and (max-width: 600px) {
+    .submenu {
+      font-size: 20px;
+    }
+  } */
 
 a:link{
     text-decoration: none;
@@ -40,18 +46,18 @@ a:hover{
     color: black;
 }
 
-a.active .submenu{
+a.active .menuitem{
     transition-delay: 100ms;
     background-color: paleturquoise;
 }
 
-a:hover .submenu{
+a:hover .menuitem{
     transition-delay: 100ms;
     background-color: paleturquoise;
     /* border-width: 3px; */
 }
 
-a:checked .submenu{
+a:checked .menuitem{
     transform: scaleY(2px);
 }
 /* .submenu:hover{

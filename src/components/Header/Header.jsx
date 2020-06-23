@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Header.module.css'
-import ico from './../../content/head/ico.png'
+import ico from '../../content/head/ico.png'
 
 const Header = () => {
     return (

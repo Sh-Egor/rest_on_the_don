@@ -1,0 +1,66 @@
+.a{
+    /* transition-delay: 100ms; */
+    background-color: yellow;
+    align-self: center;
+    text-align: center;
+    border: solid;
+    border-radius: 5px;
+    height: auto;
+   
+}
+.menuitem{
+    text-decoration: none;
+    color: black;
+    transition-delay: 100ms;
+    background-color: yellow;
+    align-self: center;
+    text-align: center;
+    border: solid;
+    border-radius: 5px;
+    height: auto;
+    font-size: 1.5vmax;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: max-content; */
+}
+
+/* @media screen and (max-width: 600px) {
+    .submenu {
+      font-size: 20px;
+    }
+  } */
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+a.active .menuitem{
+    transition-delay: 100ms;
+    background-color: paleturquoise;
+}
+
+a:hover .menuitem{
+    transition-delay: 100ms;
+    background-color: paleturquoise;
+    /* border-width: 3px; */
+}
+
+a:checked .menuitem{
+    transform: scaleY(2px);
+}
+/* .submenu:hover{
+    transition-delay: 100ms;
+    background-color: paleturquoise;
+} */
