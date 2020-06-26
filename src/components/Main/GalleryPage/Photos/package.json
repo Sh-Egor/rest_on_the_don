@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "example using react-images Lightbox component",
     "keywords": [],
-    "main": "index.js",
+    "main": "index.jsx",
     "dependencies": {
       "react": "16.8.6",
       "react-dom": "16.8.6",

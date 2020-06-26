@@ -1,13 +1,12 @@
 import React from 'react';
 import s from './Footer.module.css'
-import {Contact} from './Contact/Contact';
-import cont from './contacts.json';
+import Contact from './Contact/Contact';
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <div className={s.footer}>
       <div className={s.foot}>
-        {cont.map((gen) =>(
+        {props.contacts.map((gen) =>(
           <Contact {...gen} />
         ))}
       </div>

@@ -1,13 +1,12 @@
 import React from 'react';
 import s from './SubMenu.module.css'
 import SubMenuItem from './SubMenuItem/SubMenuItem'
-import SubMenuItems from './SubMenuItems.json'
 
-const SubMenu = () => {
+const SubMenu = (props) => {
     return (
         <div className={s.menu}>
             <div className={s.pages}>
-                {SubMenuItems.map((gen) => (
+                {props.subm.map((gen) => (
                     <SubMenuItem {...gen} />
                 ))}
             </div>

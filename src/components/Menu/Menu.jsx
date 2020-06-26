@@ -1,13 +1,12 @@
 import React from 'react';
 import s from './Menu.module.css'
 import MenuItem from './MenuItem/MenuItem'
-import pages from './MenuItems.json'
 
-const Menu = () => {
+const Menu = (props) => {
     return (
         <div className={s.menu}>
             <div className={s.pages}>
-                {pages.map((gen) => (
+                {props.m.map((gen) => (
                     <MenuItem {...gen} />
                 ))}
             </div>
